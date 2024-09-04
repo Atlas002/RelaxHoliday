@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UpdateRoom">
+  <grid id="27dc6" binding="GenPane" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-4924673"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="59e99" class="javax.swing.JLabel" binding="Title">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bell MT" size="24" style="3"/>
+          <text value="Relax Holidays"/>
+        </properties>
+      </component>
+      <component id="ef7e9" class="javax.swing.JTextField" binding="roomNameField">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value="roomNameField"/>
+          <text value="Room Name"/>
+        </properties>
+      </component>
+      <component id="cd87" class="javax.swing.JTextArea" binding="roomDescriptionTextArea" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value="roomDescriptionTextArea"/>
+          <text value="Room description"/>
+        </properties>
+      </component>
+      <component id="55af5" class="javax.swing.JTextField" binding="priceTextField" default-binding="true">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value="priceTextField"/>
+          <text value="Price"/>
+        </properties>
+      </component>
+      <component id="849fc" class="javax.swing.JTextField" binding="capacityTextField" default-binding="true">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value="capacityTextField"/>
+          <text value="Capacity"/>
+        </properties>
+      </component>
+      <component id="2a4cc" class="javax.swing.JLabel" binding="Subtitle">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font style="1"/>
+          <text value="Employee Interface"/>
+        </properties>
+      </component>
+      <component id="cf015" class="javax.swing.JComboBox" binding="Chooselocation">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="London"/>
+            <item value="Paris"/>
+            <item value="Rome"/>
+          </model>
+          <name value="Choose location"/>
+        </properties>
+      </component>
+      <component id="c8df9" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="saveButton"/>
+          <text value="Save"/>
+        </properties>
+      </component>
+      <component id="194f7" class="javax.swing.JButton" binding="deleteButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="deleteButton"/>
+          <text value="Delete"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

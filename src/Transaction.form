@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Transaction">
+  <grid id="27dc6" binding="GenPane" layout-manager="GridLayoutManager" row-count="12" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="20" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="516" height="411"/>
+    </constraints>
+    <properties>
+      <background color="-4924673"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e8861" class="javax.swing.JLabel" binding="Title">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Relax Holidays"/>
+        </properties>
+      </component>
+      <component id="53c1d" class="javax.swing.JLabel" binding="RoomNumber">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Room n°"/>
+        </properties>
+      </component>
+      <component id="8a2ca" class="javax.swing.JLabel" binding="Checkin">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Check in :"/>
+        </properties>
+      </component>
+      <component id="4ee2a" class="javax.swing.JLabel" binding="Checkout">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Check out :"/>
+        </properties>
+      </component>
+      <component id="501d8" class="javax.swing.JLabel" binding="Duration">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Duration"/>
+        </properties>
+      </component>
+      <component id="10bbc" class="javax.swing.JLabel" binding="PPN">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Price per night :"/>
+        </properties>
+      </component>
+      <component id="1abe9" class="javax.swing.JLabel" binding="Subtitle">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Confirmation Booking"/>
+        </properties>
+      </component>
+      <component id="ae9ff" class="javax.swing.JLabel" binding="Total">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Total :"/>
+        </properties>
+      </component>
+      <component id="2ff00" class="javax.swing.JLabel" binding="PayMethod">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Payment method :"/>
+        </properties>
+      </component>
+      <component id="93385" class="javax.swing.JRadioButton" binding="debitRadioButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7422977"/>
+          <text value="Debit"/>
+        </properties>
+      </component>
+      <component id="b1f23" class="javax.swing.JLabel" binding="CardInfo">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Credit Card Informations :"/>
+        </properties>
+      </component>
+      <component id="a4367" class="javax.swing.JTextField" binding="CardInfoField">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value="CardInfoField"/>
+        </properties>
+      </component>
+      <component id="4b247" class="javax.swing.JLabel" binding="Mail">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Send confirmation email to :"/>
+        </properties>
+      </component>
+      <component id="a71dc" class="javax.swing.JButton" binding="proceedButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Proceed"/>
+        </properties>
+      </component>
+      <component id="c93a" class="javax.swing.JLabel" binding="customerEmail">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="customerEmail"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="de8e2" class="javax.swing.JLabel" binding="roomNumberField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="roomNumberField"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="c20cd" class="javax.swing.JLabel" binding="checkInField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="checkInField"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="dc8e3" class="javax.swing.JLabel" binding="checkOutField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="checkOutField"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="e61be" class="javax.swing.JLabel" binding="durationField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="durationField"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="86fad" class="javax.swing.JLabel" binding="ppnField">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="ppnField"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="517d2" class="javax.swing.JLabel" binding="totalPriceField">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="totalPriceField"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="75ca3" class="javax.swing.JRadioButton" binding="creditRadioButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-7422977"/>
+          <text value="Credit"/>
+        </properties>
+      </component>
+      <component id="d7293" class="javax.swing.JCheckBox" binding="checkBoxMail">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="checkBoxMail"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="fa32c" class="javax.swing.JTextField" binding="SpecialRequestField">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <name value="SpecialRequest"/>
+        </properties>
+      </component>
+      <component id="5b54d" class="javax.swing.JLabel" binding="SpecialRequest">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <name value="SpecialRequest"/>
+          <text value="Special request (optional)"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
